@@ -1,41 +1,71 @@
-# LangChain Demo Project
+# AI Engineering Learning 🚀
 
-A comprehensive demonstration project showcasing various LangChain capabilities including Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Prompt Templates, and ReAct agents.
+A hands-on repository for learning and experimenting with **AI Engineering, LLMs, LangChain, Prompt Engineering, Chains, RAG, and ReAct-based AI agents**.
 
-## 📋 Table of Contents
+This repository focuses on learning by building practical examples and gradually combining individual concepts into more advanced AI applications.
 
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Modules](#modules)
-- [Dependencies](#dependencies)
+---
+
+## 📚 Topics Covered
+
+- Large Language Models (LLMs)
+- Prompt Templates & Messages
+- LangChain Chains
+- Custom Runnables
+- Conditional & Parallel Chains
+- Retrieval-Augmented Generation (RAG)
+- ChromaDB
+- ReAct Agents
+- Tool Calling
+- Structured Outputs
+- Streaming
+- SQL ReAct Agents
+- Local Model Execution with Docker
+
+---
 
 ## 🗂️ Project Structure
 
-```
-Langchain_Demo/
-├── main.py                          # Main entry point
-├── pyproject.toml                   # Project configuration and dependencies
-├── requirements.txt                 # Python package requirements
-├── README.md                        # Project documentation
+```text
+AI-Engineering-Learning/
 │
-├── LLM/                            # Large Language Model demos
-│   ├── Basic_Setup.ipynb           # Basic LLM setup and configuration
-│   ├── RAG.ipynb                   # Retrieval-Augmented Generation demo
-│   └── chroma_db/                  # ChromaDB vector store data
-│       ├── chroma.sqlite3
-│       └── 79cb7ece-bd3f-4f1c-94c5-a41d55dbfb19/
+├── Chains/
+│   ├── Chain_demo.ipynb
+│   ├── Chain_with_customRunnable.ipynb
+│   ├── Conditional_chain.ipynb
+│   └── Parallel_chain.ipynb
 │
-├── Prompt Templates/               # Prompt engineering demos
-│   └── PromptTemplate_Demo.ipynb   # Prompt template examples
+├── LLM/
+│   ├── chroma_db/
+│   ├── Basic_Setup.ipynb
+│   ├── Docker_Model_Runner.ipynb
+│   ├── NovaS.pdf
+│   └── RAG.ipynb
 │
-└── ReAct_Demo/                     # ReAct agent demonstrations
-    ├── ReAct_Demo.ipynb            # ReAct agent implementation
-    ├── Structured_Output.ipynb     # Structured output generation
-    └── Tools.ipynb                 # Tool usage and integration
-```
+├── Prompt Templates/
+│   ├── Messages.ipynb
+│   └── PromptTemplate_Demo.ipynb
+│
+├── ReAct/
+│   ├── ReAct_Demo.ipynb
+│   ├── SQL_ReAct_Agent.ipynb
+│   ├── Structured_Output.ipynb
+│   ├── Tools.ipynb
+│   ├── With_Stream.ipynb
+│   └── init_db.py
+│
+├── ReAct RAG/
+│   ├── ReAct_RAG_Demo.ipynb
+│   └── Semantic_RAG.ipynb
+│
+├── main.py
+├── pyproject.toml
+├── requirements.txt
+├── uv.lock
+└── README.md
+
+
+
 
 ## ✨ Features
 
@@ -75,6 +105,21 @@ Langchain_Demo/
    ```env
    GOOGLE_API_KEY=your_google_api_key_here
    ```
+
+### 🧠 Learning Modules
+## 1. LLM
+
+The **LLM** section covers the fundamentals of working with Large Language Models
+and building applications around them.
+
+### Topics Covered
+
+- **Basic LLM Setup** — Setting up and interacting with an LLM.
+- **Model Configuration** — Configuring models and their parameters.
+- **Local Model Execution** — Running models locally.
+- **Retrieval-Augmented Generation (RAG)** — Providing external context to an LLM during generation.
+- **Vector Databases with ChromaDB** — Storing and retrieving embeddings for semantic search.
+
 
 ## 💻 Usage
 
